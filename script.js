@@ -33,10 +33,10 @@ function writePassword() {
       password = password.concat(upcase)
     }
     if (charType_numbs.toLowerCase() == "y") {
-      password = password.concat(symbols)
+      password = password.concat(numbs)
     }
     if (charType_sym.toLowerCase() == "y") {
-      password = password.concat(numbs)
+      password = password.concat(symbols)
     }
   }
 
