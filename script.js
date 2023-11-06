@@ -12,7 +12,26 @@ var charChoice = function () {
   var charChoice = window.Prompt("Choose a password length (8 to 128 characters :");
     return;
 } 
-var 
+var charType_sm = function () {
+  var charType_sm = Window.Prompt("Include lowercase letters (y/n) ? ");
+  return;
+}
+var charType_cap = function () {
+  var charType_cap = window.prompt("Include uppercase letters (y/n) ? ");
+  return;
+}
+var charType_numbs = function () {
+  var charType_numbs = window.prompt("Include numbers (y/n) ? ");
+  return;
+}
+var charType_sym = function () {
+  var charType_sym = window.prompt("Include symbols (y/n) ? ");
+  return;
+}
+if (charChoice > 7 && charChoice < 129) {
+  
+}
+  
 
 
 // Write password to the #password input
