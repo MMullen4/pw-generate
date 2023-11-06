@@ -9,7 +9,7 @@ var numbs = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
 // Write password to the #password input
 function writePassword() {
   var charLength = window.prompt("Choose a password length (8 to 128 characters :");
-  if (charLength < 8 || charLength > 128) {
+  if ((charLength < 8 || charLength > 128) || (console.log(typeof charLength))) {
     alert("Please enter a password length between 8 - 128")
     return;
   }
@@ -17,8 +17,8 @@ function writePassword() {
   var charType_cap = window.prompt("Include uppercase letters (y/n) ? ");
   var charType_numbs = window.prompt("Include numbers (y/n) ? ");
   var charType_sym = window.prompt("Include symbols (y/n) ? ");
-  if (charType_cap.toLowerCase() == "n" && charType_numbs.toLowerCase() == "n" && charType_sm.toLowerCase() == "n" && charType_sym.toLowerCase() == "n") {
-    alert("You need at least one type of character.")
+  if ((charType_cap.toLowerCase() == "n" && charType_numbs.toLowerCase() == "n" && charType_sm.toLowerCase() == "n" && charType_sym.toLowerCase() == "n") || (charType_cap.toLowerCase() == "" && charType_numbs.toLowerCase() == "" && charType_sm.toLowerCase() == "" && charType_sym.toLowerCase() == "")) {
+    alert("You need to repond to all the questions, and select at least one type of character.")
     return;
   }
 
