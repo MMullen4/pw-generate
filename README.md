@@ -15,7 +15,7 @@ This program prompts the user as to what length password they desire (from 8 to 
 NA
 
 ## Usage
-Example of a 12 character password with capital letter and numbers only - CWVH4JU1IKUI
+Example of a 12 character password with capital letters and numbers only - CWVH4JU1IKUI
 
 ## Support
 Email me at matt@mmcprintpackaging.com.
