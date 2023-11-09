@@ -18,7 +18,7 @@ function writePassword() {
   var charType_cap = window.prompt("Include uppercase letters (y/n) ? ");
   var charType_numbs = window.prompt("Include numbers (y/n) ? ");
   var charType_sym = window.prompt("Include symbols (y/n) ? ");
-  if (charType_cap.toLowerCase() == "n" && charType_numbs.toLowerCase() == "n" && charType_sm.toLowerCase() == "n" && charType_sym.toLowerCase() == "n") {
+  if ((charType_cap.toLowerCase() == "n" && charType_numbs.toLowerCase() == "n" && charType_sm.toLowerCase() == "n" && charType_sym.toLowerCase() == "n") || (charType_cap.toLowerCase() && charType_numbs.toLowerCase() && charType_sm.toLowerCase() && charType_sym.toLowerCase())) {
     alert("You need to select at least one type of character.")
     return;
   }

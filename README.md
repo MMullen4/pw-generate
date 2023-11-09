@@ -5,11 +5,11 @@ Password Generator
 ## Description
 This program prompts the user as to what length password they desire (from 8 to 128 characters), as well as what types of characters they want included into the password.  Invalid password lengths or not accepting any characters will terminate the generation of a password. The only characters included will be those specified by the user.  
 
-## Badges
+## Link
+https://mmullen4.github.io/pw-generate/
 
 ## Visuals
 ![Alt text](image.png)
-
 
 ## Installation
 NA
